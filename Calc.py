@@ -57,6 +57,5 @@ def main():
             y = int(input("enter the second: "))
             print(mult(x, y))
 
-
 if __name__ == '__main__':
     main()
