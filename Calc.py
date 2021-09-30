@@ -37,12 +37,25 @@ def ceil(a):
 
 def main():
 
-    print(plus(4, 7))
-    print(mult(10, 11))
-    print(sub(50, 34))
-    print(div(4000, 100))
-    print(square(3, 2))
-    print(square_root(49))
+    print("this is the calculator try out its functions!")
+    print("This is the functions plus, mult, sub, div, square")
+    user_choice = input("Enter a function: ")
+    running = True
+    while running:
+        if user_choice == "plus":
+            x = int(input("enter the first number: "))
+            y = int(input("enter the second: "))
+            print(plus(x, y))
+
+        if user_choice == "sub":
+            x = int(input("enter the first number: "))
+            y = int(input("enter the second: "))
+            print(sub(x, y))
+
+        if user_choice == "mult":
+            x = int(input("enter the first number: "))
+            y = int(input("enter the second: "))
+            print(mult(x, y))
 
 
 if __name__ == '__main__':
