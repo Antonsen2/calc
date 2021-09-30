@@ -22,6 +22,13 @@ def square(a, b):
     return a ** b
 
 
+def floor(a):
+    return int(a)
+
+
+def ceil(a):
+    return int(a) + 1
+
 def main():
 
     print(plus(4, 7))
