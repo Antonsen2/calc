@@ -25,6 +25,15 @@ def square(a, b):
 def square_root(a, b=2):
     b = 1/b
     return a ** b
+  
+
+def floor(a):
+    return int(a)
+
+
+def ceil(a):
+    return int(a) + 1
+
 
 def main():
 
